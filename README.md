@@ -23,7 +23,12 @@ countDownToZero = recounter(countDownToZero)
 
 countDownToZero(10)
 console.log(countDownToZero.callCount) // -> 10
+
+//set the call count to 0
 countDownToZero.clearCallCount()
 console.log(countDownToZero.callCount) // -> 0
 
+//revert the function back to the original version
+countDownToZero = countDownToZero.restore()
+console.log(countDownToZero.callCount) // -> undefined
 ```

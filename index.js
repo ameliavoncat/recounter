@@ -9,6 +9,10 @@ function recount(func){
     return newFunc.callCount = 0
   }
 
+  newFunc.restore = function() {
+    return func
+  }
+
   return newFunc
 }
 
