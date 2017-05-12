@@ -22,7 +22,7 @@ function countDownToZero(number){
 countDownToZero = recounter(countDownToZero)
 
 countDownToZero(10)
-console.log(countDownToZero.callCount) // -> 10
+console.log(countDownToZero.callCount) // -> 11
 
 //set the call count to 0
 countDownToZero.clearCallCount()
