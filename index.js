@@ -1,7 +1,7 @@
 function recount(func){
-  newFunc = function(...args) {
+  const newFunc = function() {
     newFunc.callCount++
-    return func(...args)
+    return func.apply(null, Array.prototype.slice.call(arguments))
   }
   newFunc.callCount = 0
 
