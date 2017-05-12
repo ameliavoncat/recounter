@@ -1,6 +1,6 @@
 {
   "name": "recounter",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Wrap a recursive function in recounter to track how many times the function is called.",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,10 @@
     "recursion",
     "utility"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ameliavoncat/recounter.git"
+  },
   "author": "Amelia Clarke",
   "license": "MIT"
 }
