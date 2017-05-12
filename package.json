@@ -1,0 +1,15 @@
+{
+  "name": "recounter",
+  "version": "1.0.1",
+  "description": "Wrap a recursive function in recounter to track how many times the function is called.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "recursion",
+    "utility"
+  ],
+  "author": "Amelia Clarke",
+  "license": "MIT"
+}
